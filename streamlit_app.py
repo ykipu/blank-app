@@ -4,7 +4,6 @@ import numpy as np
 from keras.models import load_model
 import matplotlib.pyplot as plt
 import yfinance as yf
-
 st.title("Stock Price Predicitior App")
 
 st.text_input("Enter the stock ID", 'NVDA')
